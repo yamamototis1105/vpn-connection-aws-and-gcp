@@ -1,5 +1,5 @@
 ## 概要
-　本リポジトリは、AWSとGCP間のVPN Connectionを構築するためのハンズオンです。<br/>
+　本ドキュメントは、AWSとGCP間のVPN Connectionを構築するためのマニュアルです。<br/>
 以下の通り、VPN ConnectionでAWS VGW～GCP VGW間を接続します。<br/>
 
 ## 手順
