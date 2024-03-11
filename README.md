@@ -3,7 +3,7 @@
 以下の通り、VPN ConnectionでAWS VGW～GCP VGW間を接続します。<br/>
 
 ## 手順
-* AWSインスタンス作成
+### AWSインスタンス作成
 1. VPC作成
    * 名前「sample-vpc」、IPv4 CIDRブロックは「10.0.0.0/24」で作成。
 1. サブネット作成 
@@ -38,7 +38,7 @@
    * nohup ping 10.0.0.4 -c 86400 > result & 。
 <br/>
 
-* GCPインスタンス作成
+### GCPインスタンス作成
 1. VPCネットワーク作成 
    * 名前「sample-vpc」で作成。 
 1. サブネット作成 
