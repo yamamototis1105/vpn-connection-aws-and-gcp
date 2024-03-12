@@ -54,8 +54,6 @@
    * 高可用性「4つのVPNトンネルを作成」、名前「sample-tunnel」で作成。 
    * BGPセッション作成 
    * 名前「sample-bgp」、ピアASN「64512」、Cloud RouterのBGP IP「(GCP側のアドレス)」 
-1. ルートの更新 
-   * (不要) <br/>※BGPによって自動学習 
 1. VMインスタンス作成 
    * 名前「sample-vm」、リージョン「asia-northeast1」、ネットワークタグ「sample」、SSH認証鍵「(id_rsa.pub貼り付け)」で作成。 
 
