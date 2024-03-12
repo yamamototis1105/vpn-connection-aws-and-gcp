@@ -46,14 +46,14 @@
 1. VPN作成 
    * VPNオプション「HA VPN」で作成。 
    * Cloud HA VPNゲートウェイ作成 
-   * 名前「sample-vgw」、ネットワーク「sample-vpc」、リージョン「asia-northeast1」、 
-   * インターフェース: 0、インターフェース: 1のアドレスを確認。 
+     * 名前「sample-vgw」、ネットワーク「sample-vpc」、リージョン「asia-northeast1」で作成。
+     * インターフェース: 0、インターフェース: 1のアドレスを確認。 
    * ピアVPNゲートウェイ作成 
-   * 名前「sample-pvgw」、インタフェース「4つ」、インタフェース0～3「(AWS側のアドレス)」で作成。 
+     * 名前「sample-pvgw」、インタフェース「4つ」、インタフェース0～3「(AWS側のアドレス)」で作成。 
    * VPNトンネル作成 
-   * 高可用性「4つのVPNトンネルを作成」、名前「sample-tunnel」で作成。 
+     * 高可用性「4つのVPNトンネルを作成」、名前「sample-tunnel」で作成。 
    * BGPセッション作成 
-   * 名前「sample-bgp」、ピアASN「64512」、Cloud RouterのBGP IP「(GCP側のアドレス)」 
+     * 名前「sample-bgp」、ピアASN「64512」、Cloud RouterのBGP IP「(GCP側のアドレス)」 
 1. VMインスタンス作成 
    * 名前「sample-vm」、リージョン「asia-northeast1」、ネットワークタグ「sample」、SSH認証鍵「(id_rsa.pub貼り付け)」で作成。 
 
