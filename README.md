@@ -2,7 +2,7 @@
 　本ドキュメントは、AWSとGCP間のVPN Connectionを構築するためのマニュアルです。<br/>
 以下の通り、VPN ConnectionでAWS VGW～GCP VGW間を接続します。<br/>
 
-![vpn-connection-between-aws-and-gcp](https://github.com/yamamototis1105/vpn-connection-between-aws-and-gcp/assets/114621183/7b65c8f8-d777-4987-8615-2ea936a0b127)
+![vpn-connection-between-aws-and-gcp](https://github.com/yamamototis1105/vpn-connection-between-aws-and-gcp/assets/114621183/0644cc78-4921-4884-aa80-45283d340480)
 
 ## 利用方法
 ### AWSインスタンス作成
