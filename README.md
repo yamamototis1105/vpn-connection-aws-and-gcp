@@ -82,4 +82,4 @@
    * VPC「sample-vpc」を削除。
 
 ## 関連技術
-<img src="https://img.shields.io/badge/AWS-Site_to_Site_VPN-orange"></img> <img src="https://img.shields.io/badge/GCP-HA_VPN-blue"></img>
+<img src="https://img.shields.io/badge/AWS-Site_to_Site_VPN-orange"></img> <img src="https://img.shields.io/badge/GCP-VPN-blue"></img>
